@@ -5,6 +5,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  safelist: [{ pattern: /col-span-\d/ }, { pattern: /row-span-\d/ }, { pattern: /grid-cols-\d/ }],
   theme: {
     extend: {
       backgroundImage: {
